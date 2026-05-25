@@ -1,34 +1,121 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sarıgöl Alaşehir Dolmuş Saatleri | Sarıgöl Salihli Seferleri</title>
-  <meta name="description" content="Sarıgöl - Alaşehir ve Sarıgöl - Salihli dolmuş saatleri, iletişim ve güncel sefer bilgileri.">
-  <style>
-    body{font-family:Arial,sans-serif;background:#f4f8fc;color:#222;margin:0}
-    header{background:#0d6efd;color:#fff;text-align:center;padding:24px}
-    .container{max-width:900px;margin:20px auto;padding:15px}
-    .card{background:#fff;border-radius:14px;padding:20px;margin-bottom:20px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
-    h2{color:#0d6efd}
-    .times{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:10px}
-    .time-box{background:#eef5ff;text-align:center;padding:12px;border-radius:10px;font-weight:bold}
-    .btn{display:inline-block;margin-top:15px;background:#0d6efd;color:white;text-decoration:none;padding:12px 18px;border-radius:8px}
-    footer{text-align:center;padding:20px;color:#666}
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sarıgöl – Alaşehir Dolmuş Saatleri</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      margin:0;
+      background:#f4f6f8;
+      color:#222;
+    }
+    header{
+      background:#1e88e5;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+    section{
+      max-width:900px;
+      margin:20px auto;
+      background:white;
+      padding:15px;
+      border-radius:10px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2{
+      border-bottom:2px solid #eee;
+      padding-bottom:5px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:10px;
+    }
+    .box{
+      background:#f1f8ff;
+      padding:10px;
+      border-radius:8px;
+      text-align:center;
+      font-weight:bold;
+    }
+    .phone{
+      text-align:center;
+      margin-top:10px;
+    }
+    a.button{
+      display:inline-block;
+      background:#43a047;
+      color:white;
+      padding:10px 15px;
+      border-radius:6px;
+      text-decoration:none;
+      margin-top:5px;
+    }
+  </style>
 </head>
 <body>
 <header>
-<h1>Sarıgöl Dolmuş Saatleri</h1>
-<p>Sarıgöl - Alaşehir ve Sarıgöl - Salihli Güncel Sefer Bilgileri</p>
+  <h1>Sarıgöl – Alaşehir Dolmuş Saatleri</h1>
 </header>
-<div class="container">
-<div class="card"><h2>Sarıgöl → Alaşehir</h2><div class="times"><div class="time-box">06:30</div><div class="time-box">07:30</div><div class="time-box">08:30</div><div class="time-box">10:00</div><div class="time-box">12:00</div><div class="time-box">14:00</div><div class="time-box">16:00</div><div class="time-box">18:00</div></div></div>
-<div class="card"><h2>Alaşehir → Sarıgöl</h2><div class="times"><div class="time-box">07:00</div><div class="time-box">08:00</div><div class="time-box">09:00</div><div class="time-box">11:00</div><div class="time-box">13:00</div><div class="time-box">15:00</div><div class="time-box">17:00</div><div class="time-box">19:00</div></div></div>
-<div class="card"><h2>Sarıgöl → Salihli</h2><div class="times"><div class="time-box">07:00</div><div class="time-box">10:00</div><div class="time-box">17:15</div></div></div>
-<div class="card"><h2>Salihli → Sarıgöl</h2><div class="times"><div class="time-box">08:00</div><div class="time-box">13:30</div><div class="time-box">18:30</div></div></div>
-<div class="card"><h2>İletişim</h2><a class="btn" href="tel:+902368675871">0236 867 58 71 Ara</a></div>
-</div>
-<footer>© 2026 Sarıgöl Dolmuş Saatleri</footer>
+<section>
+  <h2>📍 Sarıgöl → Alaşehir (Hafta İçi)</h2>
+  <div class="grid">
+    <div class="box">07:30</div><div class="box">08:00</div><div class="box">08:30</div><div class="box">09:00</div>
+    <div class="box">09:40</div><div class="box">10:00</div><div class="box">10:45</div><div class="box">11:30</div>
+    <div class="box">12:15</div><div class="box">13:00</div><div class="box">13:45</div><div class="box">14:30</div>
+    <div class="box">15:15</div><div class="box">16:00</div><div class="box">16:45</div><div class="box">17:15</div>
+    <div class="box">17:45</div><div class="box">18:15</div><div class="box">19:00</div>
+  </div>
+</section>
+<section>
+  <h2>📍 Alaşehir → Sarıgöl (Hafta İçi)</h2>
+  <div class="grid">
+    <div class="box">07:30</div><div class="box">08:00</div><div class="box">08:30</div><div class="box">09:15</div>
+    <div class="box">10:00</div><div class="box">11:00</div><div class="box">11:45</div><div class="box">12:15</div>
+    <div class="box">13:00</div><div class="box">13:40</div><div class="box">14:10</div><div class="box">15:00</div>
+    <div class="box">15:30</div><div class="box">16:00</div><div class="box">16:40</div><div class="box">17:15</div>
+    <div class="box">17:45</div><div class="box">18:15</div><div class="box">18:45</div><div class="box">19:10</div>
+  </div>
+</section>
+<section>
+  <h2>📍 Sarıgöl → Alaşehir (Hafta Sonu)</h2>
+  <div class="grid">
+    <div class="box">08:00</div><div class="box">08:30</div><div class="box">09:00</div><div class="box">09:30</div>
+    <div class="box">10:00</div><div class="box">11:00</div><div class="box">12:00</div><div class="box">13:00</div>
+    <div class="box">14:00</div><div class="box">15:00</div><div class="box">16:00</div><div class="box">17:15</div>
+    <div class="box">18:15</div><div class="box">19:00</div>
+  </div>
+</section>
+<section>
+  <h2>📍 Alaşehir → Sarıgöl (Hafta Sonu)</h2>
+  <div class="grid">
+    <div class="box">08:00</div><div class="box">08:30</div><div class="box">09:00</div><div class="box">10:00</div>
+    <div class="box">11:00</div><div class="box">12:10</div><div class="box">13:00</div><div class="box">14:00</div>
+    <div class="box">15:00</div><div class="box">16:00</div><div class="box">17:00</div><div class="box">17:45</div>
+    <div class="box">18:15</div><div class="box">19:10</div>
+  </div>
+</section>
+<section>
+  <h2>📍 Sarıgöl → Salihli</h2>
+  <div class="grid">
+    <div class="box">Hafta İçi: 07:00 - 10:00 - 17:15</div>
+    <div class="box">Hafta Sonu: 10:00 - 17:15</div>
+  </div>
+</section>
+<section>
+  <h2>📍 Salihli → Sarıgöl</h2>
+  <div class="grid">
+    <div class="box">Hafta İçi: 08:00 - 13:30 - 18:30</div>
+    <div class="box">Hafta Sonu: 11:30 - 18:30</div>
+  </div>
+</section>
+<section class="phone">
+  <h2>📞 Sarıgöl Yazıhane</h2>
+  <p><strong>0236 867 58 71</strong></p>
+  <a class="button" href="tel:02368675871">Hemen Ara</a>
+</section>
 </body>
 </html>
